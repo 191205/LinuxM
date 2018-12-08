@@ -1,0 +1,21 @@
+** TODO Add exwm-x directory to emacs's load-path
+
+Pasting the below line to "~/.emacs" is a simple way.
+
+(add-to-list 'load-path "/path/to/exwm-x")
+
+** TODO config and set dotfiles management
+
+- https://news.ycombinator.com/item?id=11070797
+
+- https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/
+
+** TODO Clone spacemacs 
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+
+** TODO Install or try out Uzbl
+https://wiki.archlinux.org/index.php/Uzbl#Commands
+
+** TODO Add to emacs config
+(add-to-list 'load-path "~/.config/libvterm")
+(require 'vterm)
